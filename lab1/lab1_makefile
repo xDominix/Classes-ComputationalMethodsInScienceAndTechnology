@@ -1,0 +1,7 @@
+lab1:
+	gcc -o main lab1_main.c -lm -lgsl -lgslcblas
+	./main 
+
+clean:
+	rm -f main	
+	
